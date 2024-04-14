@@ -75,7 +75,7 @@ project works on Convolutional Neural Network-Regression Model.''')
     with project_4:
         st.header("**WORLD CUP TRACKER**")
         st.write('''Cricket and Soccer world cup statistics till now in one place.''')
-        st.write("Link to project: https://github.com/SubhajitGT/World-Cup-Stats-Checker")
+        st.write("Project Live at: https://cricket-football-world-cup-stats-checker.streamlit.app/")
 
     st.write("**You can find, some more interesting projects from here**:  https://github.com/SubhajitGT?tab=repositories")
 
