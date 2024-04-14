@@ -45,7 +45,7 @@ def work():
 
     st.markdown("# **Languages**")
 
-    categories = ['Python', 'SQL', 'Scala', 'Shell/Terminal']
+    categories = ['Python', 'SQL', 'Scala', 'Spark']
     values = [50, 35, 5, 10]
 
     fig = px.bar(x=categories, y=values, labels={'x': 'Categories', 'y': 'Values'})
@@ -62,12 +62,17 @@ Wikipedia-google-youtube search, text-to-speech, etc. on one click.''')
         st.write("Link to project: https://github.com/SubhajitGT/ANTON-2.0")
     project_2 = st.container()
     with project_2:
+        st.header("**Stock Analysis**")
+        st.write('''Predicting stock price based on Yahoo finaince historical data.''')
+        st.write("Project Live at: https://stock-market-forecast.streamlit.app/")
+    project_3 = st.container()
+    with project_3:
         st.header("**SELF-DRIVING CAR**")
         st.write('''Predict steering angle and display on the front camera of a car data,this
 project works on Convolutional Neural Network-Regression Model.''')
         st.write("Link to project: https://github.com/SubhajitGT/Self_Driving_Car")
-    project_3 = st.container()
-    with project_3:
+    project_4 = st.container()
+    with project_4:
         st.header("**WORLD CUP TRACKER**")
         st.write('''Cricket and Soccer world cup statistics till now in one place.''')
         st.write("Link to project: https://github.com/SubhajitGT/World-Cup-Stats-Checker")
