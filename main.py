@@ -7,7 +7,7 @@ st.set_page_config(page_title="Subhajit Portfolio", layout="wide")
 def about_me():
     st.title("About Me")
 
-    st.write('''Hi Folks :wave:, My name is **Subhajit Guha Thakurta**. I am a Data Science Engineer with over 2 years of experience at Infosys, where I have been deeply involved in the realm of data engineering. My expertise lies in **crafting robust data pipelines, optimizing SQL queries, and implementing diverse data retrieval techniques**. Currently, I am immersed in the fascinating world of **Large Language Models (LLMs)**, leveraging them to analyze data and drive strategic decision-making processes.
+    st.write('''Hi Folks :wave:, My name is **Subhajit Guha Thakurta**. I am a Data Science Engineer with over 3 years of experience at Infosys, where I have been deeply involved in the realm of Artificial Intelligence. My expertise lies in **crafting robust ML/DL models, optimizing Business problems through AI, and implementing diverse data retrieval techniques**. Currently, I am immersed in the fascinating world of **Large Language Models (LLMs)** and **GEN AI**, leveraging them to analyze data and drive strategic decision-making processes.
 
 Driven by a passion for creating functional and user-friendly data science applications, I am dedicated to pushing the boundaries of what is possible with data. My journey in the field has been marked by a commitment to excellence and a constant pursuit of innovative solutions that make a tangible impact.
 
@@ -31,13 +31,13 @@ def work():
     <ul>
       <li>Analyzing data by using OpenAI and Client Models, extracting valuable insights, and informing strategic decision-making.</li>
       <li>Built robust and efficient data pipelines, ensuring seamless flow and integration of data.</li>
-      <li>Developed and implemented different function techniques, enabling swift and effortless retrieval of data from the database.</li>
+      <li>Experiment with various Machine Learning and Deep Learning models/algorithms (ARIMA, LSTM, FBProphet) for Time-Series Analysis problems. Optimal models on different perspectives.</li>
       <li>Enhanced SlackBot functionality by incorporating diverse use cases along with fine-tuning Large Language Models if possible, enhancing convenience for clients.</li>
     </ul>
     """, unsafe_allow_html=True)
 
     st.markdown("# **Tools**")
-    labels = ['PostGres', 'Oracle', 'Snowflake', 'CI/CD Pipeline', 'AWS S3', 'Streamlit', 'Hugging Face', 'LLMs', 'Milvus-Vector DB']
+    labels = ['Scikit-Learn', 'TensorFlow', 'Snowflake', 'CI/CD Pipeline', 'AWS S3', 'Streamlit', 'Hugging Face', 'LLMs', 'Milvus-Vector DB']
     values = [5, 8, 30, 15, 5, 15, 4, 10, 8]
 
     fig = px.pie(names=labels, values=values)
@@ -45,7 +45,7 @@ def work():
 
     st.markdown("# **Languages**")
 
-    categories = ['Python', 'SQL', 'Scala', 'Spark']
+    categories = ['Python', 'ML/DL', 'PySpark', 'SQL']
     values = [50, 35, 5, 10]
 
     fig = px.bar(x=categories, y=values, labels={'x': 'Categories', 'y': 'Values'})
